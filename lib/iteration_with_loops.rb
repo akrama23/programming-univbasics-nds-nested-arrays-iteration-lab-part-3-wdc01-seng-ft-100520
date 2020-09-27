@@ -8,7 +8,7 @@ def join_nested_strings(src)
     while element_index < src[row_index].size do 
         
         if  src[row_index][element_index].class == String  
-        puts  mixed_strings += src[row_index][element_index]
+        print 
       end 
          element_index += 1 
       end 
